@@ -1,0 +1,58 @@
+.container {
+  padding-top: 50px;
+  margin: 0 auto;
+  max-width: 1050px;
+  color: #fff;
+}
+.title {
+  letter-spacing: 4px;
+  font-weight: 600;
+  text-decoration: underline;
+}
+.data {
+  margin-left: 10px;
+}
+.list {
+}
+.item {
+  margin-bottom: 20px;
+}
+.name {
+  font-size: 30px;
+  margin: 0 0 20px 0;
+  font-weight: 600;
+  text-shadow: #fc0 1px 0 10px;
+}
+.subName {
+  font-size: 20px;
+  margin: 10px 0 10px 0;
+  font-weight: 600;
+  text-shadow: #fc0 1px 0 10px;
+}
+.row {
+  display: flex;
+  gap: 30px;
+  padding-top: 30px;
+}
+.img {
+  max-height: 350px;
+  object-fit: cover;
+}
+img:before {
+  width: 350px;
+  height: 350px;
+  display: block;
+}
+
+img:after {
+  content: " Sorry,we have`t foto...:(";
+  width: 180px;
+  height: 300px;
+  font-size: 16px;
+  padding: 10px;
+  display: block;
+  background-color: black;
+  color: #fc0;
+
+  text-align: center;
+}

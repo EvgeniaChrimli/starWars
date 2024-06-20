@@ -1,0 +1,32 @@
+.container {
+  margin: 0 auto;
+}
+.title_main {
+  text-align: center;
+  font-size: 45px;
+  letter-spacing: 4px;
+  color: #fff;
+}
+.list {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  padding-top: 150px;
+}
+.item {
+  background-color: #fff;
+  text-align: center;
+}
+.title {
+  padding: 10px;
+}
+.image {
+  width: 100%;
+  max-height: 300px;
+  object-fit: cover;
+  transition: all 0.4s;
+}
+.image:hover {
+  max-height: 320px;
+}

@@ -1,0 +1,23 @@
+.link {
+  margin: 20px 0 0 20px;
+  display: inline-flex;
+  align-items: center;
+  font-weight: 600;
+  color: #fff;
+  text-decoration: none;
+  min-width: 100px;
+  border-radius: 3px;
+  font-size: 9px;
+  font-weight: 200;
+  background: none;
+  outline: none;
+  transition: 0.4s;
+  cursor: pointer;
+  padding: 5px;
+  font-size: 18px;
+  border: 1px solid #fff;
+}
+
+.link:hover {
+  box-shadow: #fc0 2px 0 10px;
+}

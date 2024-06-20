@@ -1,0 +1,49 @@
+.container {
+  max-width: 950px;
+  margin: 0 auto;
+}
+.title {
+  font-size: 25px;
+  margin-bottom: 15px;
+  letter-spacing: 8px;
+  text-shadow: #fc0 2px 0 10px;
+  color: #fff;
+}
+.items {
+  display: flex;
+  gap: 30px;
+  position: relative;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+}
+.image {
+  max-height: 350px;
+}
+.image2 {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  top: -15px;
+  left: -15px;
+  cursor: pointer;
+}
+.item {
+  letter-spacing: 3px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  font-weight: 400;
+  margin: 5px 0 20px 10px;
+  color: white;
+}
+
+.info_title {
+  font-size: 17px;
+  text-decoration: underline;
+}
+.info_data {
+  font-size: 15px;
+}

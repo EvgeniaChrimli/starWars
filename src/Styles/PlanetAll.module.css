@@ -1,0 +1,22 @@
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  padding-top: 50px;
+}
+
+.item {
+  background-color: #fff;
+}
+.img {
+  max-height: 180px;
+  object-fit: cover;
+  transition: all 0.3s;
+}
+.img:hover {
+  max-height: 190px;
+}
+.name {
+  padding: 5px;
+  text-align: center;
+}

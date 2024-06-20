@@ -1,0 +1,28 @@
+.header {
+  background-color: black;
+  font-weight: 400;
+}
+.logo {
+  font-size: 20px;
+}
+.container {
+  max-width: 950px;
+  margin: 0 auto;
+  align-items: center;
+}
+.icon {
+  width: 30px;
+  height: 30px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 13px;
+  font-size: 18px;
+  font-weight: 600;
+}
+.list {
+  display: flex;
+  gap: 15px;
+}

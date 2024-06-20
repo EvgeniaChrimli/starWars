@@ -1,0 +1,7 @@
+.people_section {
+}
+.people_navigation {
+  gap: 10px;
+  display: flex;
+  justify-content: center;
+}

@@ -1,0 +1,9 @@
+/*className="w-full h-screen relative bg-black overflow-hidden"*/
+
+.home {
+  width: 186vh;
+  height: 93vh;
+  position: relative;
+
+  overflow: hidden;
+}

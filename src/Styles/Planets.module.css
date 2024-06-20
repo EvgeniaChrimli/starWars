@@ -1,0 +1,10 @@
+.container {
+  padding-top: 50px;
+  margin: 0 auto;
+  max-width: 1000px;
+}
+.row {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
